@@ -40,4 +40,6 @@ function removeElementFromBeginningOfArray(arrayName,position){
   return arrayName
   
 }
-
+function removeElementFromEndofArray(arrayName){
+  arrayName.slice(0,arrayName.length-1)
+}
